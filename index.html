@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Rates</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bogdan Grishin">
+    <meta name="og:description" content="Current exchange rates">
+    <meta property="og:title" content="Current exchange rates for today">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="#">
+            <div class="summ">
+                <h1 class="tittle">Currency Converter</h1>
+                <p>Enter amount</p>
+                <input type="text" placeholder="100 USD" value="1">
+            </div>
+            <div class="drop_list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select">
+                        <img src="https://flagcdn.com/w20/us.png" alt="flag">
+                        <select>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="icon"><img src="images/exchange.png" style="width:40px; height: 40px;" alt="exchange"></div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select">
+                        <img src="https://flagcdn.com/w20/ua.png" alt="flag">
+                        <select>
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <h2 class="rate">Getting rate...</h2>
+            <button class="button">Update currency rate</button>
+        </form>
+    </div>
+    <div class="madeby">
+        <a href="https://github.com/VERHOVNA-RADA">Made by <span>Bogdan Grishin</span></a>
+    </div>
+
+    <script src="scripts/country-list.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

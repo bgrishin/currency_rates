@@ -1,0 +1,123 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgba(0,255,209,1), rgba(145,0,255,1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.wrapper {
+    width: 370px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+    background-color: white;
+}
+
+.tittle {
+    font-size: 28px;
+    font-weight: 1200;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form :where(input, select, button) {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+form input {
+    height: 50px;
+    padding: 0 15px;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    transition: border-color 500ms, border-width 200ms;
+}
+
+form input:focus {
+    border-color: #9003FF;
+    border-width: 3px;
+}
+
+form p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rate {
+    margin: 40px 0px 40px 0px;
+}
+
+.drop_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drop_list .select {
+    display: flex;
+    height: 45px;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.select select {
+    width: auto;
+    font-size: 16px;
+    margin: 0 -5px 0 5px;
+}
+
+.drop_list .icon {
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+button {
+    height: 52px;
+    color: white;
+    border: 3px solid black;
+    background: black;
+    transition: border-color 500ms, background-color 500ms, color 500ms, border-width 500ms;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-width: 2px;
+}
+
+a {
+    color: #d9d9d9;
+    font-size: 10px;
+    transition: color 450ms;
+}
+
+span {
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+a:hover {
+    color: white;
+}
+
+.madeby {
+    margin-top: 10px;
+}
