@@ -6,7 +6,6 @@ const country_list = {
     "AMD" : "AM",
     "ANG" : "NL",
     "AOA" : "AO",
-    "AQD" : "AQ",
     "ARS" : "AR",
     "AUD" : "AU",
     "AZN" : "AZ",
