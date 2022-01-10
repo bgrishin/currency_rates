@@ -155,6 +155,5 @@ const country_list = {
     "VUV" : "VU",
     "YER" : "YE",
     "ZAR" : "ZA",
-    "ZMK" : "ZM",
-    "ZWD" : "ZW"
+    "ZMK" : "ZM"
 }
